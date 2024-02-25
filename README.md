@@ -8,13 +8,11 @@ This Python script utilizes the rembg library to remove backgrounds from images.
 # Installation
 1. Ensure you have Python 3.x installed on your system.
 2. Install the required dependencies using pip:
-   '''
-   pip install rembg numpy pillow
-   '''
+   -    pip install rembg numpy pillow
 # Usage
 1. Place the input images that you want to process in the same directory as the script or provide the full path to the input images.
 2. Run the script by executing the following command in your terminal or command prompt:
-    ''' python background_removal.py '''
+-       python background_removal.py   
 3. The script will process each input image, remove the background, and save the output images in the specified output directory.
 # Input images
 You can provide one or more input images to the script. Update the 'input_image_paths' list in the script to include the paths of the input images.
